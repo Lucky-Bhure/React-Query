@@ -47,6 +47,7 @@ React Query is project demonstrates efficient data fetching, state management, a
 ## Technologies Used
 - **React:** For building the UI.
 - **@tanstack/react-query:** For data fetching and state management.
+- **react-intersection-observer:** tell you when an element enters or leaves the viewport.
 - **React Router:** For navigation and routing.
 - **Axios:** For API requests.
 
