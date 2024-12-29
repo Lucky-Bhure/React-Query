@@ -57,4 +57,4 @@ Contributions are welcome! Feel free to fork this repository, make changes, and 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-Special thanks to the creators of React and @tanstack/react-query for enabling such efficient data management solutions.
+Special thanks to the creators of **React** and **@tanstack/react-query** for enabling such efficient data management solutions.
