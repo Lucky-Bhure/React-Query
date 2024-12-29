@@ -1,0 +1,78 @@
+header {
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    background-color: rgb(33, 33, 33);
+}
+
+.header-container {
+    width: 80%;
+    place-self: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.logo  {
+    color: #ff9900;
+}
+
+.index-div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.index-ele {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.index-ele:hover {
+    color: blue;
+}
+
+.active {
+    color: #ff9900;
+}
+
+.ham-menu {
+    display: none;
+}
+
+@media screen and (max-width : 1020px) {
+    .ham-menu {
+        display: block;
+        color: white;
+        justify-self: end;
+    }
+
+    .smallnone {
+        display: none;
+    }
+
+    .smallindex {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100vw;
+        background-color: rgb(252, 252, 252);
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        z-index: 2;
+    }
+
+    .smallindex:first-child {
+        padding: 0.5rem;
+    }
+
+    .index-ele {
+        color: black;
+    }
+
+    .active {
+        color: #ff9900;
+    }
+}
