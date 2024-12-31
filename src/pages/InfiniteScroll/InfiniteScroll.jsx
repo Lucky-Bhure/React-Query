@@ -55,7 +55,6 @@ const InfiniteScroll = () => {
                     <ul className="data-pages" key={index}>
                         {
                             page?.map((user) => {
-                                console.log(user);
                                 return <li className="user-list" key={user.id}>
                                     <img src={user.avatar_url} alt="" />
                                     <p>{user.login}</p>
